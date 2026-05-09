@@ -1,0 +1,10 @@
+[
+    {
+        "title": "WELCOME",
+        "text": "<h1>Welcome to the Server</h1><p>This is the first page of your guide.</p>"
+    },
+    {
+        "title": "RULES",
+        "text": "<h1>Server Rules</h1><ul><li>Rule 1: No RDM</li><li>Rule 2: No VDM</li></ul>"
+    }
+]

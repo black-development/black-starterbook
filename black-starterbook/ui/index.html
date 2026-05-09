@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="book-wrapper" style="display: none;">
+        <div class="book-container">
+            <!-- Tabs -->
+            <div class="tabs">
+                <div class="tab tab-save" id="save-tab" style="display: none;">SAVE</div>
+                <div class="tab tab-add" id="add-tab" style="display: none;">+ PAGE</div>
+                <div class="tab tab-del" id="del-tab" style="display: none;">- PAGE</div>
+                <div class="tab tab-close" id="close-tab">CLOSE</div>
+            </div>
+
+            <!-- Book Body -->
+            <div class="book">
+                <div class="page left-page">
+                    <div class="page-content" id="content-left"></div>
+                    <div class="page-footer">
+                        <span id="page-num-left">1</span>
+                    </div>
+                </div>
+                <div class="page right-page">
+                    <div class="page-content" id="content-right"></div>
+                    <div class="page-footer">
+                        <span id="page-num-right">2</span>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <div class="nav-btns">
+                    <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
